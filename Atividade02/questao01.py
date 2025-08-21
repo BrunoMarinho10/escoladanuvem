@@ -7,5 +7,5 @@ valor_euro = valor_reais / taxa_euro
 
 print("=== Conversor de Moeda ===")
 print(f"Valor em reais: R$ {valor_reais:.2f}")
-print(f"Em dólares: US$ {valor_dolar:.2f}")
-print(f"Em euros: € {valor_euro:.2f}")
+print("Em dólares: U$", round(valor_dolar, 2))
+print(f"Em euros: €", round(valor_euro, 2))
